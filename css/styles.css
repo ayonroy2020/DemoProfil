@@ -113,3 +113,41 @@ a:hover{
   background-image: linear-gradient(to bottom, #fae13c, #c21170);
   text-decoration: none;
 }
+/* Media queries for responsive design */
+  @media screen and (max-width: 768px) {
+	h1 {
+	  font-size: 3.125rem;
+	}
+  
+	h2 {
+	  font-size: 1.875rem;
+	}
+  
+	.intro,
+	.contact-msg {
+	  width: 80%;
+	}
+  
+	.skill-row {
+	  width: 80%;
+	}
+  }
+  
+  @media screen and (max-width: 480px) {
+	h1 {
+	  font-size: 2.5rem;
+	}
+  
+	h2 {
+	  font-size: 1.25rem;
+	}
+  
+	.intro,
+	.contact-msg {
+	  width: 100%;
+	}
+  
+	.skill-row {
+	  width: 100%;
+	}
+  }
